@@ -24,7 +24,7 @@ description: >-
 | 3 | `../write-claims/` 接受独权后立刻 `../name-components/` | 命名优化（独权用名 + 交底用名） |
 | 4 | `../write-claims/` 续写 | 正式用名独权 + 从权 |
 | 5a | `../write-specification-other/` | 技术领域、背景、技术问题、有益效果、摘要 |
-| 5b | `../write-embodiments/` | 说明书·具体实施方式 |
+| 5b | `../write-embodiments/` | 具体实施例**入口**（正文细则在其下 `embodiment-drafting`） |
 
 5a 与 5b 可交错，但摘要须在技术领域定稿之后、建议在实施例之后。两者都必须读取理解稿、命名表与正式用名后的独权。
 

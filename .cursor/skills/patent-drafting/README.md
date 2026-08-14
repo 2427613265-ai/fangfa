@@ -2,7 +2,7 @@
 
 方法和结构专利申请的 skill 分组。架构与启用顺序见仓库根目录 `README.md` 与 `draft-patent/SKILL.md`。
 
-说明书仍只有两个入口 skill；各章细则是其下的**独立子 skill**（直接改对应 `SKILL.md`）。
+说明书只有两个**侧边栏入口**：`write-embodiments`（具体实施例）、`write-specification-other`（说明书其他部分）。各章细则挂在入口目录下，**不单独出现在侧边栏**；点开入口后按表去改对应 `SKILL.md`。
 
 ## 说明书其他部分（入口 `write-specification-other`）
 

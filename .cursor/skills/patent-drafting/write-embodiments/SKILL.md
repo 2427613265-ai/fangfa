@@ -1,17 +1,32 @@
 ---
 name: write-embodiments
 description: >-
-  具体实施例：撰写说明书具体实施方式。先对齐复述权项，再按结构或工序展开；
-  不要用「在本实施例中，一种……」「具体而言」当默认起句。新名词先释义；必要时补装配、未入权方案、工作流程。
+  具体实施例入口：撰写说明书具体实施方式。用户说具体实施例、具体实施方式、写实施例时启用本 skill。
+  启用后必须读取子目录细则：正文用 embodiment-drafting，新名词用 embodiment-term-first；
+  必要时再读装配、未入权、工作流程。不要用「在本实施例中，一种……」「具体而言」当默认起句。
 ---
 
-# 具体实施例
+# 具体实施例（入口）
+
+侧边栏里的「具体实施例」就是**本文件**。`/write-embodiments`、用户说「写具体实施例 / 具体实施方式」时，从这里进，不要去侧边栏再找一份「正文 skill」。
+
+子目录里的 `SKILL.md` **不会**作为侧边栏第二层入口出现。它们是本入口启用后必须打开并遵循的细则。
 
 把权项写成可实施的具体例子。必须覆盖独权全部必要特征；命名与权项、命名表一致。与 `write-specification-other` 拆开。
 
-本 skill **只编排顺序并落盘**。改某一步的写法，直接改对应子目录里的 `SKILL.md`。
+## 本入口要读哪些细则
 
-各步是独立 skill，也可单独 `/` 调用。全流程时按下面顺序 **读取并遵循** 该子 skill。
+启用本 skill 后，按当前步骤 **读取并遵循** 对应文件，不要只停在本页输出目录。
+
+| 步 | 写什么 | 打开这份细则 |
+| --- | --- | --- |
+| 5A | 独权实施例：复述 →（有新名词则释义）→ 按结构/工序展开 | [`embodiment-drafting/SKILL.md`](embodiment-drafting/SKILL.md)、有新名词再读 [`embodiment-term-first/SKILL.md`](embodiment-term-first/SKILL.md) |
+| 5B | 各从权实施例，同样复述+释义+展开；只展开该从权新增特征 | 同上 |
+| 5C | 权项未写外部装配时，补整体装配（独权展开末一句总述 + 文末详述） | [`embodiment-assembly/SKILL.md`](embodiment-assembly/SKILL.md) |
+| 5D | 未写入权利要求的技术方案：先问用户有无补充，再按就近/文末编排 | [`embodiment-unclaimed/SKILL.md`](embodiment-unclaimed/SKILL.md) |
+| 5E | 交底有整机运行/主流程时写工作流程与原理；无则跳过并说明 | [`embodiment-workflow/SKILL.md`](embodiment-workflow/SKILL.md) |
+
+改「怎么写复述/展开」：打开 `embodiment-drafting/SKILL.md`，不要改成去侧边栏另挂一个入口。
 
 ## 何时启用
 
@@ -21,17 +36,9 @@ description: >-
 
 ## 顺序（分步，必须拆开）
 
-默认一轮只做下面一个分支。禁止把整个具体实施方式一次写完。
+默认一轮只做上面一个分支。禁止把整个具体实施方式一次写完。
 
-| 步 | 内容 | 改这里 / 启用这个 |
-| --- | --- | --- |
-| 5A | 独权实施例：复述 →（有新名词则释义）→ 按结构/工序展开 | [`embodiment-drafting`](embodiment-drafting/SKILL.md)、[`embodiment-term-first`](embodiment-term-first/SKILL.md) |
-| 5B | 各从权实施例，同样复述+释义+展开；只展开该从权新增特征 | 同上 |
-| 5C | 权项未写外部装配时，补整体装配（独权展开末一句总述 + 文末详述） | [`embodiment-assembly`](embodiment-assembly/SKILL.md) |
-| 5D | 未写入权利要求的技术方案：先问用户有无补充，再按就近/文末编排 | [`embodiment-unclaimed`](embodiment-unclaimed/SKILL.md) |
-| 5E | 交底有整机运行/主流程时写工作流程与原理；无则跳过并说明 | [`embodiment-workflow`](embodiment-workflow/SKILL.md) |
-
-5A/5B：复述权项以对齐保护范围；展开用名称+标号或工序起句，一段一件事，把构成和动作讲清楚。不要写「在本实施例中，一种……」，不要段段「具体而言／进一步地」，也不要把权项加标号当展开。附图标记只出现在展开段。
+5A/5B：按 `embodiment-drafting` 写。复述权项以对齐保护范围；展开用名称+标号或工序起句，一段一件事。不要写「在本实施例中，一种……」，不要段段「具体而言／进一步地」，也不要把权项加标号当展开。附图标记只出现在展开段。
 
 ## 输入 / 输出
 
