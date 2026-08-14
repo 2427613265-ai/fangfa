@@ -1,9 +1,8 @@
 ---
 name: write-embodiments
 description: >-
-  具体实施例：撰写说明书具体实施方式。每条权利要求先复述再「具体而言」展开；
-  新名词先释义；必要时补装配、未入权方案、工作流程。权利要求书定稿后使用。
-  术语以命名表为准。不写技术领域、背景、发明内容、摘要。
+  具体实施例：撰写说明书具体实施方式。先对齐复述权项，再按结构或工序展开；
+  不要用「在本实施例中，一种……」「具体而言」当默认起句。新名词先释义；必要时补装配、未入权方案、工作流程。
 ---
 
 # 具体实施例
@@ -26,13 +25,13 @@ description: >-
 
 | 步 | 内容 | 改这里 / 启用这个 |
 | --- | --- | --- |
-| 5A | 独权实施例：复述 →（有新名词则释义）→「具体而言」展开 | [`embodiment-drafting`](embodiment-drafting/SKILL.md)、[`embodiment-term-first`](embodiment-term-first/SKILL.md) |
+| 5A | 独权实施例：复述 →（有新名词则释义）→ 按结构/工序展开 | [`embodiment-drafting`](embodiment-drafting/SKILL.md)、[`embodiment-term-first`](embodiment-term-first/SKILL.md) |
 | 5B | 各从权实施例，同样复述+释义+展开；只展开该从权新增特征 | 同上 |
 | 5C | 权项未写外部装配时，补整体装配（独权展开末一句总述 + 文末详述） | [`embodiment-assembly`](embodiment-assembly/SKILL.md) |
 | 5D | 未写入权利要求的技术方案：先问用户有无补充，再按就近/文末编排 | [`embodiment-unclaimed`](embodiment-unclaimed/SKILL.md) |
 | 5E | 交底有整机运行/主流程时写工作流程与原理；无则跳过并说明 | [`embodiment-workflow`](embodiment-workflow/SKILL.md) |
 
-5A/5B：第一段原样复述权项（删「其特征在于」；从权删引用套话，改「进一步地，」）。附图标记只出现在展开段，格式为「部件名称+标号」，与命名表一致。
+5A/5B：复述权项以对齐保护范围；展开用名称+标号或工序起句，把构成和动作讲清楚。不要写「在本实施例中，一种……」，不要段段「具体而言／进一步地」。附图标记只出现在展开段。
 
 ## 输入 / 输出
 
