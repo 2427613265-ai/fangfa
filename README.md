@@ -20,8 +20,8 @@
 | [`draft-patent`](.cursor/skills/patent-drafting/draft-patent/) | 专利撰写总控 | 编排全流程，强制门禁 |
 | [`understand-disclosure`](.cursor/skills/patent-drafting/understand-disclosure/) | 交底书理解 | 先 Plan 再分步：跑通 → 问题/名词 → 步骤或模块 → 流程 → 效果 |
 | [`conceive-independent-claim`](.cursor/skills/patent-drafting/conceive-independent-claim/) | 独权构思 | 核心区别 → 最小完整特征集 → 第一版 → 重核问题/主题 → 第二版（交底用词） |
-| [`name-components`](.cursor/skills/patent-drafting/name-components/) | 部件命名 | 接手独权后先优化独权用名与交底用名 |
-| [`write-claims`](.cursor/skills/patent-drafting/write-claims/) | 权利要求书撰写 | 接受独权 → 先命名 → 正式用名独权 + 从权 |
+| [`name-components`](.cursor/skills/patent-drafting/name-components/) | 部件命名 | 修饰语+名词；独权优先功能+无形/有形名词 |
+| [`write-claims`](.cursor/skills/patent-drafting/write-claims/) | 权利要求书撰写 | 接受独权 → 先命名 → 按 A 规则写正式独权与从权 |
 | [`write-embodiments`](.cursor/skills/patent-drafting/write-embodiments/) | 具体实施例 | 说明书·具体实施方式 |
 | [`write-specification-other`](.cursor/skills/patent-drafting/write-specification-other/) | 说明书其他部分 | 技术领域、背景、发明内容、附图说明等 |
 | [`reinforce-inventiveness`](.cursor/skills/patent-drafting/reinforce-inventiveness/) | 交底书创造性补强 | 可选旁路；你认为创造性不够或要求补强时使用 |
