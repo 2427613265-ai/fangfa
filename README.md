@@ -1,6 +1,6 @@
 # 专利撰写 Skills 架构
 
-面向**方法专利**与**结构专利**的 Cursor Agent Skill 架构。除已补内容的 skill 外，其余暂只定职责、门禁与产物契约。
+面向**方法专利**与**结构专利**的 Cursor Agent Skill 架构。
 
 专利申请由两部分组成：
 
@@ -21,9 +21,9 @@
 | [`understand-disclosure`](.cursor/skills/patent-drafting/understand-disclosure/) | 交底书理解 | 先 Plan 再分步：跑通 → 问题/名词 → 步骤或模块 → 流程 → 效果 |
 | [`conceive-independent-claim`](.cursor/skills/patent-drafting/conceive-independent-claim/) | 独权构思 | 核心区别 → 最小完整特征集 → 第一版 → 重核问题/主题 → 第二版（交底用词） |
 | [`name-components`](.cursor/skills/patent-drafting/name-components/) | 部件命名 | 修饰语+名词；独权优先功能+无形/有形名词 |
-| [`write-claims`](.cursor/skills/patent-drafting/write-claims/) | 权利要求书撰写 | 接受独权 → 先命名 → 按 A 规则写正式独权与从权 |
-| [`write-embodiments`](.cursor/skills/patent-drafting/write-embodiments/) | 具体实施例 | 说明书·具体实施方式 |
-| [`write-specification-other`](.cursor/skills/patent-drafting/write-specification-other/) | 说明书其他部分 | 技术领域、背景、发明内容、附图说明等 |
+| [`write-claims`](.cursor/skills/patent-drafting/write-claims/) | 权利要求书撰写 | 接受独权 → 先命名 → 按第1–53条写正式独权与从权 |
+| [`write-embodiments`](.cursor/skills/patent-drafting/write-embodiments/) | 具体实施例 | 复述+展开；5A–5E 分步 |
+| [`write-specification-other`](.cursor/skills/patent-drafting/write-specification-other/) | 说明书其他部分 | 技术领域、背景、技术问题、有益效果、摘要 |
 | [`reinforce-inventiveness`](.cursor/skills/patent-drafting/reinforce-inventiveness/) | 交底书创造性补强 | 可选旁路；你认为创造性不够或要求补强时使用 |
 
 推荐调用：在 Agent 中输入 `/draft-patent` 走全流程；也可单独调用某一 skill。单独写权项时，该 skill 仍须先确认上游产物已存在。创造性补强不走总控自动插入，说「创造性不够」或「补强创造性」即可。
