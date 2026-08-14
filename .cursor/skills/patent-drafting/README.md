@@ -2,6 +2,4 @@
 
 方法和结构专利申请的 skill 分组。架构与启用顺序见仓库根目录 `README.md` 与 `draft-patent/SKILL.md`。
 
-`understand-disclosure` 已补理解顺序（先 Plan 再分步）。`write-independent-claim` 已补独权五步（核心区别 → 最小完整特征集 → 第一版 → 重核问题/主题 → 第二版）。其余撰写 skill 仍只有职责与契约。
-
-`reinforce-inventiveness` 不在默认全流程中；用户提到创造性不够或要求补强时再启用。
+已补内容：`understand-disclosure`（先 Plan 再分步）、`conceive-independent-claim`（独权五步）、`name-components`（接手独权后优化独权用名与交底用名）。`write-claims` 目前只定「接受独权后先命名」及产物契约，从权细则待补。

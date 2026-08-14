@@ -57,7 +57,7 @@ description: >-
 
 - 默认上游：`understand-disclosure`（推荐，非强制）
 - 不进入 `draft-patent` 的固定顺序
-- 若用户随后要求继续写权项：下游仍是 `name-components` → `write-independent-claim` …；撰写 skill 应改读补强稿（及回写后的理解稿）
+- 若用户随后要求继续写权项：下游是 `conceive-independent-claim` → `write-claims`（接受独权后先 `name-components`）；撰写 skill 应改读补强稿（及回写后的理解稿）
 
 ## 内容待补
 

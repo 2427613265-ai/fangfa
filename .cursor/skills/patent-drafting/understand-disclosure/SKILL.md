@@ -11,7 +11,7 @@ description: >-
 
 把发明人交底先**查能否成立**，再按固定顺序帮用户（专利撰写人）把方案吃准。本步的读者是用户本人，不是先填一张给机器用的表。
 
-只做检查与理解。不写权利要求、不写说明书章节、不把部件名称定稿（正式命名交给 `name-components`）。
+只做检查与理解。不写权利要求、不写说明书章节、不把部件名称定稿（正式命名在独权构思之后、由 `name-components` 做）。
 
 ## 何时启用
 
@@ -203,5 +203,5 @@ description: >-
 ## 边界
 
 - 上游：用户交底（文本、图、口头补充）
-- 下游必读本理解稿：`name-components`、`write-independent-claim`、`write-dependent-claims`、`write-embodiments`、`write-specification-other`
-- 与 `name-components`：本步只释义、列对象；正式权项用名不在此定
+- 下游必读本理解稿：`conceive-independent-claim`、`name-components`、`write-claims`、`write-embodiments`、`write-specification-other`
+- 与 `name-components`：本步只释义、列对象；正式权项用名在独权构思被 `write-claims` 接受后再定
