@@ -76,7 +76,7 @@ description: >-
 | `claims.md` | 总控汇编权项 |
 | `specification.md` | 总控汇编说明书 |
 
-各文件内部章节结构由对应 skill 定义。本阶段未补内容的 skill 只固定文件名与生产者。
+各文件内部章节结构由对应 skill 定义。实施例正文见同级 `embodiment-drafting`；说明书各章见同级 `spec-*`。
 
 ## 边界
 

@@ -10,9 +10,7 @@ description: >-
 
 覆盖说明书里「非具体实施方式」的章节。发明内容须与独权对齐；用词以 `03-naming.md` 为准。具体怎么实施交给 `write-embodiments`。
 
-本 skill **只编排顺序并落盘**。改某一章的写法，直接改对应子目录里的 `SKILL.md`，不必绕 references。
-
-各章是独立 skill，也可单独 `/` 调用。全流程时按下面顺序 **读取并遵循** 该子 skill。
+本 skill **只编排顺序并落盘**。各章是同级独立 skill（侧边栏与本入口并列），也可单独 `/` 调用。改某一章就打开对应 `SKILL.md`。全流程时按下面顺序 **读取并遵循**。
 
 ## 何时启用
 
@@ -28,13 +26,13 @@ description: >-
 
 | 步 | 章节 | 改这里 / 启用这个 |
 | --- | --- | --- |
-| 1 | 技术领域 | [`spec-technical-field`](spec-technical-field/SKILL.md) |
-| 2 | 背景技术 | [`spec-background`](spec-background/SKILL.md) |
-| 3 | 技术问题陈述 | [`spec-technical-problem`](spec-technical-problem/SKILL.md) |
+| 1 | 技术领域 | [`spec-technical-field`](../spec-technical-field/SKILL.md) |
+| 2 | 背景技术 | [`spec-background`](../spec-background/SKILL.md) |
+| 3 | 技术问题陈述 | [`spec-technical-problem`](../spec-technical-problem/SKILL.md) |
 | 4 | 技术方案 | 用说明书口吻复述独权（及需要时关键从权），术语用命名表；不在此写实施例细节 |
-| 5 | 有益效果 | [`spec-beneficial-effects`](spec-beneficial-effects/SKILL.md) |
+| 5 | 有益效果 | [`spec-beneficial-effects`](../spec-beneficial-effects/SKILL.md) |
 | 6 | 附图说明 | 本仓库该章细则未拉取；有图则按命名表列图序与标记，不得编造新图 |
-| 7 | 说明书摘要 | [`spec-abstract`](spec-abstract/SKILL.md)（≤300字；技术领域用词与第1步一致） |
+| 7 | 说明书摘要 | [`spec-abstract`](../spec-abstract/SKILL.md)（≤300字；技术领域用词与第1步一致） |
 
 禁止：先写摘要再写技术领域；把实施例写进本 skill。
 

@@ -7,7 +7,7 @@
 | 文件 | 对应 skills |
 | --- | --- |
 | 权利要求书 | `conceive-independent-claim` →（`write-claims` 接受独权后先）`name-components` → `write-claims` |
-| 说明书 | `write-embodiments`（下挂实施例子 skill）+ `write-specification-other`（下挂领域/背景/问题/效果/摘要子 skill） |
+| 说明书 | `write-embodiments` + `embodiment-drafting` 等同级实施例 skill；`write-specification-other` + `spec-*` 各章 skill |
 
 独权构思是权利要求的起点；写权利要求书之前必须先完成交底书理解。部件命名在独权构思被权利要求书撰写接手之后立即做，优化独权用名和交底用名。
 
@@ -22,8 +22,10 @@
 | [`conceive-independent-claim`](.cursor/skills/patent-drafting/conceive-independent-claim/) | 独权构思 | 核心区别 → 最小完整特征集 → 第一版 → 重核问题/主题 → 第二版（交底用词） |
 | [`name-components`](.cursor/skills/patent-drafting/name-components/) | 部件命名 | 修饰语+名词；独权优先功能+无形/有形名词 |
 | [`write-claims`](.cursor/skills/patent-drafting/write-claims/) | 权利要求书撰写 | 接受独权 → 先命名 → 按第1–53条写正式独权与从权 |
-| [`write-embodiments`](.cursor/skills/patent-drafting/write-embodiments/) | 具体实施例 | 复述+展开；5A–5E 分步 |
-| [`write-specification-other`](.cursor/skills/patent-drafting/write-specification-other/) | 说明书其他部分 | 技术领域、背景、技术问题、有益效果、摘要 |
+| [`write-embodiments`](.cursor/skills/patent-drafting/write-embodiments/) | 具体实施例 | 入口：按 5A–5E 分步调度 |
+| [`embodiment-drafting`](.cursor/skills/patent-drafting/embodiment-drafting/) | 具体实施例正文 | 复述+展开；禁止套话起句 |
+| [`write-specification-other`](.cursor/skills/patent-drafting/write-specification-other/) | 说明书其他部分 | 入口：领域/背景/问题/效果/摘要 |
+| [`spec-technical-field`](.cursor/skills/patent-drafting/spec-technical-field/) 等 | 说明书各章 | 与入口同级，侧边栏可直接打开 |
 | [`reinforce-inventiveness`](.cursor/skills/patent-drafting/reinforce-inventiveness/) | 交底书创造性补强 | 可选旁路；你认为创造性不够或要求补强时使用 |
 
 推荐调用：在 Agent 中输入 `/draft-patent` 走全流程；也可单独调用某一 skill。单独写权项时，该 skill 仍须先确认上游产物已存在。创造性补强不走总控自动插入，说「创造性不够」或「补强创造性」即可。
