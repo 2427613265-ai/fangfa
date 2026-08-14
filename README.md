@@ -1,6 +1,6 @@
 # 专利撰写 Skills 架构
 
-面向**方法专利**与**结构专利**的 Cursor Agent Skill 架构。本阶段只定义技能划分、启用顺序、门禁与产物契约，**不写各 skill 的撰写细则**。
+面向**方法专利**与**结构专利**的 Cursor Agent Skill 架构。除已补内容的 skill 外，其余暂只定职责、门禁与产物契约。
 
 专利申请由两部分组成：
 
@@ -18,7 +18,7 @@
 | Skill | 中文 | 角色 |
 | --- | --- | --- |
 | [`draft-patent`](.cursor/skills/patent-drafting/draft-patent/) | 专利撰写总控 | 编排全流程，强制门禁 |
-| [`understand-disclosure`](.cursor/skills/patent-drafting/understand-disclosure/) | 交底书理解 | 理解发明人技术方案（写权项前门禁） |
+| [`understand-disclosure`](.cursor/skills/patent-drafting/understand-disclosure/) | 交底书理解 | 先查跑通，再按问题→名词→步骤/模块→流程→效果理解 |
 | [`name-components`](.cursor/skills/patent-drafting/name-components/) | 部件命名 | 统一术语（独权定稿前必须完成） |
 | [`write-independent-claim`](.cursor/skills/patent-drafting/write-independent-claim/) | 独权撰写 | 独立权利要求 |
 | [`write-dependent-claims`](.cursor/skills/patent-drafting/write-dependent-claims/) | 从权撰写 | 从属权利要求 |
