@@ -18,7 +18,7 @@
 | Skill | 中文 | 角色 |
 | --- | --- | --- |
 | [`draft-patent`](.cursor/skills/patent-drafting/draft-patent/) | 专利撰写总控 | 编排全流程，强制门禁 |
-| [`understand-disclosure`](.cursor/skills/patent-drafting/understand-disclosure/) | 交底书理解 | 先查跑通，再按问题→名词→步骤/模块→流程→效果理解 |
+| [`understand-disclosure`](.cursor/skills/patent-drafting/understand-disclosure/) | 交底书理解 | 先 Plan 再分步：跑通 → 问题/名词 → 步骤或模块 → 流程 → 效果 |
 | [`name-components`](.cursor/skills/patent-drafting/name-components/) | 部件命名 | 统一术语（独权定稿前必须完成） |
 | [`write-independent-claim`](.cursor/skills/patent-drafting/write-independent-claim/) | 独权撰写 | 独立权利要求 |
 | [`write-dependent-claims`](.cursor/skills/patent-drafting/write-dependent-claims/) | 从权撰写 | 从属权利要求 |

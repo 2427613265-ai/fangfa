@@ -33,7 +33,7 @@ description: >-
 ## 启用顺序
 
 1. 收集交底材料（文本、图片说明、补充问答）。
-2. **必须先**启用 `understand-disclosure`，得到理解稿；未完成不得进入权利要求。
+2. **必须先**启用 `understand-disclosure`：该 skill 先出 Plan、再分步输出，未完成理解稿不得进入权利要求。
 3. 启用 `name-components`，得到命名表；独权定稿前命名表必须存在。
 4. 启用 `write-independent-claim`（权利要求书中最重要的一步）。
 5. 启用 `write-dependent-claims`。
