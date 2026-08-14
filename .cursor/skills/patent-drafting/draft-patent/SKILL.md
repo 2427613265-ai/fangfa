@@ -9,7 +9,7 @@ description: >-
 
 # 专利撰写总控（架构）
 
-本 skill 只负责**编排与门禁**，不包含独权/说明书的撰写细则。细则写在下游各 skill 中；交底书理解已补内容，其余撰写 skill 仍为架构空壳。
+本 skill 只负责**编排与门禁**，不包含说明书撰写细则。交底书理解、独权撰写已补内容；其余撰写 skill 仍为架构空壳。
 
 启用本 skill 后：按顺序 **读取并遵循** 对应下游 `SKILL.md`，不要跳过门禁，不要把多个撰写 skill 的职责混在一次输出里（除非用户只要某一段）。
 
@@ -35,7 +35,7 @@ description: >-
 1. 收集交底材料（文本、图片说明、补充问答）。
 2. **必须先**启用 `understand-disclosure`：该 skill 先出 Plan、再分步输出，未完成理解稿不得进入权利要求。
 3. 启用 `name-components`，得到命名表；独权定稿前命名表必须存在。
-4. 启用 `write-independent-claim`（权利要求书中最重要的一步）。
+4. 启用 `write-independent-claim`：分步写出第二版独权；未完成不得写从权。
 5. 启用 `write-dependent-claims`。
 6. 启用 `write-embodiments` 与 `write-specification-other`。
 7. 需要时汇编 `权利要求书` 与 `说明书` 两份文件（汇编规则待补）。
@@ -56,7 +56,7 @@ description: >-
 
 理解稿须标明：`方法` / `结构` / `方法+结构`。
 
-同一套 skills 覆盖两类；类型分支的具体写法留在各撰写 skill（待补）。`方法+结构` 时是否拆成两项独权，由独权 skill 决定（待补）。
+同一套 skills 覆盖两类。`方法+结构` 时是否拆成两项独权，由 `write-independent-claim` 按核心区别落点决定。
 
 ## 产物约定（契约，非模板）
 
