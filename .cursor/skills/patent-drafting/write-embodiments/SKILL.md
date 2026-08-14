@@ -10,7 +10,9 @@ description: >-
 
 把权项写成可实施的具体例子。必须覆盖独权全部必要特征；命名与权项、命名表一致。与 `write-specification-other` 拆开。
 
-本 skill 只编排顺序并落盘；写法必须读取本目录 `references/`，不要凭记忆简写。
+本 skill **只编排顺序并落盘**。改某一步的写法，直接改对应子目录里的 `SKILL.md`。
+
+各步是独立 skill，也可单独 `/` 调用。全流程时按下面顺序 **读取并遵循** 该子 skill。
 
 ## 何时启用
 
@@ -22,13 +24,13 @@ description: >-
 
 默认一轮只做下面一个分支。禁止把整个具体实施方式一次写完。
 
-| 步 | 内容 | 读取 |
+| 步 | 内容 | 改这里 / 启用这个 |
 | --- | --- | --- |
-| 5A | 独权实施例：复述 →（有新名词则释义）→「具体而言」展开 | [embodiment-writing.md](references/embodiment-writing.md)、[term-first.md](references/term-first.md) |
+| 5A | 独权实施例：复述 →（有新名词则释义）→「具体而言」展开 | [`embodiment-drafting`](embodiment-drafting/SKILL.md)、[`embodiment-term-first`](embodiment-term-first/SKILL.md) |
 | 5B | 各从权实施例，同样复述+释义+展开；只展开该从权新增特征 | 同上 |
-| 5C | 权项未写外部装配时，补整体装配（独权展开末一句总述 + 文末详述） | [assembly.md](references/assembly.md) |
-| 5D | 未写入权利要求的技术方案：先问用户有无补充，再按就近/文末编排 | [unclaimed.md](references/unclaimed.md) |
-| 5E | 交底有整机运行/主流程时写工作流程与原理；无则跳过并说明 | [workflow.md](references/workflow.md) |
+| 5C | 权项未写外部装配时，补整体装配（独权展开末一句总述 + 文末详述） | [`embodiment-assembly`](embodiment-assembly/SKILL.md) |
+| 5D | 未写入权利要求的技术方案：先问用户有无补充，再按就近/文末编排 | [`embodiment-unclaimed`](embodiment-unclaimed/SKILL.md) |
+| 5E | 交底有整机运行/主流程时写工作流程与原理；无则跳过并说明 | [`embodiment-workflow`](embodiment-workflow/SKILL.md) |
 
 5A/5B：第一段原样复述权项（删「其特征在于」；从权删引用套话，改「进一步地，」）。附图标记只出现在展开段，格式为「部件名称+标号」，与命名表一致。
 

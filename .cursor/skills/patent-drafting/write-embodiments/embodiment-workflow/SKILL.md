@@ -1,3 +1,9 @@
+---
+name: embodiment-workflow
+description: >-
+  具体实施方式工作流程与原理：结构实施例之后单独写整机如何运行。交底有主流程/多通道时使用。
+---
+
 # 具体实施方式：工作流程与原理撰写（所有案件类型通用）
 
 ## 适用场景
@@ -56,9 +62,9 @@
 
 | skill | 负责 |
 |-------|------|
-| `embodiment-writing.md` 或 `write-embodiments` | 各权利要求“复述+展开”结构/步骤主线 |
-| `assembly.md` | 怎么装到整机/既有构筑物上（5C） |
-| `unclaimed.md` | 未入权结构细部的就近/文末安放（5D） |
+| `embodiment-drafting` | 各权利要求“复述+展开”结构/步骤主线 |
+| `embodiment-assembly` | 怎么装到整机/既有构筑物上（5C） |
+| `embodiment-unclaimed` | 未入权结构细部的就近/文末安放（5D） |
 | **本 skill** | 整系统**怎么运行**的过程与原理（5E） |
 
 ## 检查清单
@@ -71,4 +77,4 @@
 
 ## 应用范围
 
-适用于任意技术方案类型说明书“具体实施方式”中的运行过程公开。撰写时由 `draft-patent` / `write-specification-other` / `write-embodiments` 总控第5E步调度；正式质检时由 
+适用于任意技术方案类型说明书“具体实施方式”中的运行过程公开。撰写时由 `draft-patent` / `write-specification-other` / `write-embodiments` 总控第5E步调度；正式质检时由

@@ -7,7 +7,7 @@
 | 文件 | 对应 skills |
 | --- | --- |
 | 权利要求书 | `conceive-independent-claim` →（`write-claims` 接受独权后先）`name-components` → `write-claims` |
-| 说明书 | `write-embodiments` + `write-specification-other` |
+| 说明书 | `write-embodiments`（下挂实施例子 skill）+ `write-specification-other`（下挂领域/背景/问题/效果/摘要子 skill） |
 
 独权构思是权利要求的起点；写权利要求书之前必须先完成交底书理解。部件命名在独权构思被权利要求书撰写接手之后立即做，优化独权用名和交底用名。
 
