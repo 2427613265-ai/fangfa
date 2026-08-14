@@ -36,7 +36,7 @@ description: >-
 2. **必须先**启用 `understand-disclosure`：先出 Plan、再分步输出；未完成理解稿不得进入独权构思。
 3. 启用 `conceive-independent-claim`：分步写出第二版独权（用交底/理解用词）；未完成不得进入权利要求书撰写。
 4. 启用 `write-claims` 接受该独权后，**立即**启用 `name-components`，对独权用名和交底用名做专利命名优化。
-5. 命名表齐备后，`write-claims` 续写完整权利要求书。
+5. 命名表齐备后，`write-claims` 按 1–53 与「其中」续写完整权利要求书（可按 15 增加独权项，不改核心特征集合）。
 6. 启用 `write-embodiments` 与 `write-specification-other`。
 7. 需要时汇编 `权利要求书` 与 `说明书` 两份文件（汇编规则待补）。
 
