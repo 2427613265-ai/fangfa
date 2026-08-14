@@ -19,6 +19,7 @@ description: >-
 - 全流程中，理解 + 命名完成之后
 - 用户明确要求写 / 改独立权利要求
 - 禁止：尚无理解稿时直接写独权（应先启用 `understand-disclosure`）
+- 禁止：因觉得创造性不够而自行启用 `reinforce-inventiveness`
 
 ## 门禁
 
@@ -32,6 +33,7 @@ description: >-
 **输入**
 
 - 理解稿：发明类型、必要特征候选、方案主线
+- 若用户已明确跑过创造性补强：同时读取 `01b-inventiveness-reinforcement.md`（及回写后的理解稿）
 - 命名表：正式术语
 
 **输出**（`03-independent-claim.md`）

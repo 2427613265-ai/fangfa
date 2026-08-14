@@ -44,6 +44,7 @@ description: >-
 
 - 上游：用户交底
 - 下游必读：`name-components`、`write-independent-claim`、`write-dependent-claims`、`write-embodiments`、`write-specification-other`
+- 可选旁路：`reinforce-inventiveness`（不得由本 skill 建议或自动转入；仅用户事后明确启动）
 
 ## 与命名 skill 的边界
 

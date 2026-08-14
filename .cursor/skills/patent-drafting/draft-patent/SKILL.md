@@ -4,6 +4,7 @@ description: >-
   方法和结构专利申请的撰写总控。编排交底书理解、部件命名、独权、从权、
   具体实施例、说明书其他部分。在用户要求撰写专利申请、权利要求书、说明书，
   或从交底书出一套申请文件时使用。先读本 skill 再按门禁依次启用下游 skill。
+  不要启用创造性补强；该 skill 仅在用户明确点名时单独启动。
 ---
 
 # 专利撰写总控（架构）
@@ -27,6 +28,8 @@ description: >-
 
 5a 与 5b 可在权项稳定后并行，但都必须读取理解稿、命名表与独权。
 
+`../reinforce-inventiveness/` **不是**本表中的步骤。全流程不得插入创造性补强。仅当用户另行明确启动该 skill 时，才离开本顺序去读取它。
+
 ## 启用顺序
 
 1. 收集交底材料（文本、图片说明、补充问答）。
@@ -47,6 +50,7 @@ description: >-
 - 实施例：必须能对应独权每一项必要特征。
 - 说明书其他部分中的发明内容：必须与独权对齐。
 - 全文术语：以命名表为准，禁止同物多名。
+- 创造性补强：即使用户提到创造性不够，只要没有明确要求启动该 skill，总控也不得启用；Agent 自己觉得创造性弱同样不得启用。
 
 ## 发明类型
 
@@ -61,6 +65,7 @@ description: >-
 | 文件 | 生产者 |
 | --- | --- |
 | `01-understanding.md` | understand-disclosure |
+| `01b-inventiveness-reinforcement.md` | reinforce-inventiveness（仅用户明确启动时） |
 | `02-naming.md` | name-components |
 | `03-independent-claim.md` | write-independent-claim |
 | `04-dependent-claims.md` | write-dependent-claims |
@@ -76,4 +81,5 @@ description: >-
 - 不在总控中撰写权项或说明书正文。
 - 不跳过 `understand-disclosure` 直接写独权。
 - 不把部件命名内嵌进独权 skill 作为替代；命名是独立 skill。
+- 不把创造性补强插入默认流水线，也不因创造性讨论而改读该 skill。
 - 本阶段不加载任何「撰写技巧 / 示例 / 检查清单」——那些属于各 skill 的待补内容。
