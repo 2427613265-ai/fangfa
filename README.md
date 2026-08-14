@@ -1,0 +1,62 @@
+# 专利撰写 Skills 架构
+
+面向**方法专利**与**结构专利**的 Cursor Agent Skill 架构。本阶段只定义技能划分、启用顺序、门禁与产物契约，**不写各 skill 的撰写细则**。
+
+专利申请由两部分组成：
+
+| 文件 | 对应 skills |
+| --- | --- |
+| 权利要求书 | `name-components` → `write-independent-claim` → `write-dependent-claims` |
+| 说明书 | `write-embodiments` + `write-specification-other` |
+
+独权是权利要求书的核心；写权利要求之前必须先完成交底书理解。部件命名贯穿权项与说明书，单独成 skill。
+
+## 技能一览
+
+| Skill | 中文 | 角色 |
+| --- | --- | --- |
+| [`draft-patent`](.cursor/skills/patent-drafting/draft-patent/) | 专利撰写总控 | 编排全流程，强制门禁 |
+| [`understand-disclosure`](.cursor/skills/patent-drafting/understand-disclosure/) | 交底书理解 | 理解发明人技术方案（写权项前门禁） |
+| [`name-components`](.cursor/skills/patent-drafting/name-components/) | 部件命名 | 统一术语（独权定稿前必须完成） |
+| [`write-independent-claim`](.cursor/skills/patent-drafting/write-independent-claim/) | 独权撰写 | 独立权利要求 |
+| [`write-dependent-claims`](.cursor/skills/patent-drafting/write-dependent-claims/) | 从权撰写 | 从属权利要求 |
+| [`write-embodiments`](.cursor/skills/patent-drafting/write-embodiments/) | 具体实施例 | 说明书·具体实施方式 |
+| [`write-specification-other`](.cursor/skills/patent-drafting/write-specification-other/) | 说明书其他部分 | 技术领域、背景、发明内容、附图说明等 |
+
+推荐调用：在 Agent 中输入 `/draft-patent` 走全流程；也可单独调用某一 skill。单独写权项时，该 skill 仍须先确认上游产物已存在。
+
+## 流水线
+
+```text
+交底材料
+    │
+    ▼
+understand-disclosure     产出：技术方案理解稿
+    │
+    ▼
+name-components           产出：命名表（方法：步骤/对象；结构：部件/连接）
+    │
+    ▼
+write-independent-claim   产出：独立权利要求（最重要）
+    │
+    ▼
+write-dependent-claims    产出：从属权利要求
+    │
+    ├──────────────────┐
+    ▼                  ▼
+write-embodiments   write-specification-other
+    │                  │
+    └────────┬─────────┘
+             ▼
+        说明书汇编
+```
+
+硬门禁：
+
+1. 无理解稿，不得写独权或从权。
+2. 无命名表，独权不得定稿。
+3. 无从权所依赖的独权文本，不得写从权。
+4. 实施例必须覆盖独权全部必要特征。
+5. 「发明内容」须与独权技术方案对齐。
+
+方法 / 结构共用同一套 skills，在理解稿中标记发明类型后，各撰写 skill 按类型分支（分支规则待补）。
